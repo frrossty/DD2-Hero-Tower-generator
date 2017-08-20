@@ -102,14 +102,14 @@ def main():
     if restart == "":
         main()
     elif restart == "s":
-        print("Please choose the minimum number of towers you wish to use")
+        print("Please choose the minimum number of towers you wish to use, 1-4")
         minTowers = int(input())
-        print("Please choose the maximum number of towers you wish to use")
+        print("Please choose the maximum number of towers you wish to use, 1-4")
         maxTowers = int(input())
         print()
-        print("Please choose the minimum number of heroes you wish to use")
+        print("Please choose the minimum number of heroes you wish to use, 1-4")
         minHeroes = int(input())
-        print("Please choose the maximum number of heroes you wish to use")
+        print("Please choose the maximum number of heroes you wish to use, 1-4")
         maxHeroes = int(input())
         main()
 
