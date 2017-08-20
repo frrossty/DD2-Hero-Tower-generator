@@ -3,14 +3,14 @@
 import random
 import pprint
 
-print("Please choose the minimum number of towers you wish to use")
+print("Please choose the minimum number of towers you wish to use, 1-4")
 minTowers = int(input())
-print("Please choose the maximum number of towers you wish to use")
+print("Please choose the maximum number of towers you wish to use, 1-4")
 maxTowers = int(input())
 print()
-print("Please choose the minimum number of heroes you wish to use")
+print("Please choose the minimum number of heroes you wish to use, 1-4")
 minHeroes = int(input())
-print("Please choose the maximum number of heroes you wish to use")
+print("Please choose the maximum number of heroes you wish to use, 1-4")
 maxHeroes = int(input())
 
 
@@ -98,7 +98,7 @@ def main():
     x = random.sample(myList, random.randint(minHeroes, maxHeroes))
     print()
     pprint.pprint(x)
-    restart = input("To re-roll press 'Enter', or press 's' to stat change")
+    restart = input("To re-roll press 'Enter', or press 's' to change the stats")
     if restart == "":
         main()
     elif restart == "s":
