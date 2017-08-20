@@ -2,6 +2,7 @@
 
 import random
 import pprint
+
 print("Please choose the minimum number of towers you wish to use")
 minTowers = int(input())
 print("Please choose the maximum number of towers you wish to use")
